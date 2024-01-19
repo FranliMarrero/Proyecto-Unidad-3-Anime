@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #8B93AF, #FFFFFF);
+    min-height: 100vh;
+
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(8, 17, 43);
+    color: #fff;
+    padding: -3px;
+}
+
+nav{
+    padding: 10px 10px; 
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.listaprincipal{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+
+}
+
+.listaprincipal li {
+    margin-right: 50px;
+    margin-bottom: 10px; 
+}
+
+.listaprincipal a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.listaprincipal a:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Ajusta según tus necesidades */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    flex-wrap: wrap;
+    background-color: #E3E8EB;
+}
+
+ .infoprincipal {
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 700px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(8, 17, 43, 0.3),
+                0 0 20px rgba(8, 17, 43, 0.8),
+                0 0 30px rgba(8, 17, 43, 0.6),
+                0 0 40px rgba(8, 17, 43, 0.4);
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Algerian;
+    color: #fff; /* Color del texto */
+    -webkit-text-stroke: 0.1px rgb(8, 17, 43);
+}
+
+.parrafo {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.videoprincipal{
+    margin-top: 40px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 10px;
+    object-fit: contain; /* Asegura que el video mantenga su relación de aspecto */
+    max-width: 100%; /* Limita el ancho máximo del video */
+}
+
+/* Media query para ajustar el tamaño del video en pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .videoprincipal iframe {
+        width: 100%; /* Ajusta el ancho al 100% en pantallas más pequeñas */
+        height: auto; 
+    }
+}
+
+.episodios{
+    display: flex;
+    justify-content: center;
+}
+
+.modelo {
+    margin-top:-45px;
+}
+
+.episodio1 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+
+}
+
+.episodio2 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+
+.episodio3 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+
+.personajes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.personaje1 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+
+.personaje2 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+
+.personaje3 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+
+.personaje4 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+
+.titanes {
+    display: flex;
+    justify-content: center;
+}
+
+.titan1 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+.titan2 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+.titan3 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
+ .titan4 {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    width: 400px;
+    border: 4px solid rgb(8, 17, 43);
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #E3E8EB;
+    text-align: left;
+}
