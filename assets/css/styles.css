@@ -147,6 +147,7 @@ nav{
     padding: 30px;
     background-color: #e3e8ebc0;
     text-align: left;
+    display: inline-block;
 }
 
 .personajes {
