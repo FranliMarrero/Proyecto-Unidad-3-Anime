@@ -197,3 +197,17 @@ button {
 button:hover {
     background-color: grey;
 }
+
+
+footer {
+    color: #fff;
+    background-color: rgb(8, 17, 43);
+    text-align: center;
+}
+
+.footer1 {
+    text-decoration: none;
+    background-color: rgba(42, 42, 158, 0.767);
+    color: #fff;
+}
+

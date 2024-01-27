@@ -12,12 +12,26 @@ Este proyecto tiene la finalidad de mostrar datos a través de Json, haciendo un
 
 ## Instalación 
 Para instalar este proyecto en tu dispositivo usa GitHub para descargar el código, haz una carpeta en disco D de tu computadora o laptop, abre Visual Studio Code para pegar el código, linkea las carpetas y/o archivos correspondientes y observa en el servidor nuestro tabajo. Así mismo en GitHub pages puedes visualizarlo con mejor claridad.
+*¿ Qué se hizo en html?* : Primero hemos puesto el icon y el título, luego agregamos una imígen del anime en la parte superior como portada  y se ha colocado  el “li” de “personajes”,”temporadas” y "titanes" y agregamos los textos y button.
+*¿ Qué se hizo en css?* : Colocamos  borde al  texto y fuente, también se colocó texto flotante, por otro lado, también se usó para modificar el tamaño de la imagen ejm: la imagen de la portada.
+*¿ Qué se hizo en javascript?* : Se utilizó para dar función a que aparezca el JSON , dar función a que se muestre la pagina de episodios, personajes y titanes.
+
 ![GitHub Pages](<assets/img/Captura de pantalla 2024-01-26 175917pagina3.png>)
 ![GitHub Pages](<assets/img/Captura de pantalla 2024-01-26 180120.png>)
 ![GitHub Pages](<assets/img/Captura de pantalla 2024-01-26 180101.png>)
 
 ## Uso    
 Este proyecto puede ser utilizado para ver información de un anime, visualizar cada parte de este mismo, etc; con la finalidad de que las demás personas puedan entretenerse e informarse. A partir de la explicación de la instalación se puede usar el proyecto sin ningún problema.
+
+## Preguntas y respuestas constructivas
+*¿Por qué se eligió el tema de ANIME?*
+ - Porque es un tema popular y que se hizo viral por videos,memes,etc en los tiempos de 2020 hasta ahora a la cual muchas de las personas les gusta el anime
+*¿Que es lo que queremos lograr?*
+- Que nuestra página web de anime Shingeki no kyojin sea el agrado de muchas personas y especialmente a los fanáticos otakus.
+*¿Cuál es el principal objetivo?*
+- Más que les guste queremos que muchas personas visiten a la página para que conozcan el proyecto realizado por personas principantes de aprendizaje de crear páginas webs.
+*El tema de Anime para el trabajo ¿será llamativo?,¿por qué?*
+ - Sí,porque para nosotras son series llamativas que le podrían gustar a las demás personas.
 
 ## Contacto
 Nos pueden conocer a través de nuestras cuentas de GitHub y contactar por nuestros correos electrónicos:
